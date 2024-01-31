@@ -1,0 +1,99 @@
+  .formContainer {
+      width: 100% !important;
+      height: 80vh;
+      /* margin: 0 auto; */
+      /* background-color: rgb(207, 206, 206); */
+      border-radius: 10px;
+      /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+
+  .form {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+  }
+
+  .form h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  }
+
+  .form h5 {
+      font-size: 1.2rem;
+      color: rgba(106, 112, 126, 255);
+      margin-bottom: 2.5rem;
+  }
+
+
+  .form input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 70%;
+  }
+
+  .inputName {
+      font-size: 1.2rem;
+      margin-bottom: 0.8rem;
+      color: black;
+  }
+
+  .form button {
+      background-color: rgba(60, 55, 255, 255);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+      margin-bottom: 2rem;
+      width: 70%;
+  }
+
+  .form button:hover {
+      background-color: #0056b3;
+  }
+
+  .errorMsg {
+      color: red;
+      font-size: 2rem;
+      margin-top: 4px;
+  }
+
+  .form p {
+      font-size: 0.9rem;
+      margin-top: 10px;
+  }
+
+  .link a {
+      color: #007bff;
+      text-decoration: none;
+  }
+
+  .link a:hover {
+      text-decoration: underline;
+  }
+
+  .formControl {
+      margin: 10px 0px;
+      width: 70%;
+  }
+
+  .label {
+      font-size: 16px;
+  }
+
+  .select {
+      width: 100%;
+  }
+
+  .menuItem {
+      font-size: 16px;
+      padding: 10px 20px;
+  }
+
+  /* If you want to style the selected menu items */
+  .menuItem.Mui-selected {
+      background-color: #007bff;
+      color: white;
+  }

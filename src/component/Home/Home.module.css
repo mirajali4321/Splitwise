@@ -1,0 +1,52 @@
+.container {
+  background-color: rgb(223, 220, 220);
+}
+
+.mbl_img {
+  margin: 10px auto;
+  width: 60%;
+}
+
+.mbl_img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.rightSection h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.rightSection p {
+  font-size: 2rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #3cb87e;
+  font-size: 24px;
+}
+
+.iconCircle {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.rightSection button {
+  background-color: #3cb87e;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}

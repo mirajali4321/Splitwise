@@ -1,0 +1,43 @@
+.leftSection {
+    background-color: rgb(233, 233, 233);
+    padding: 2rem 4rem !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth_logo {
+    width: 80px;
+    height: 60px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.auth_logo img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.leftSection h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.leftSection p {
+    font-size: 1.2rem;
+    color: rgba(106, 112, 126, 255);
+    margin-bottom: 3rem;
+}
+
+.commentImg {
+    width: 100%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentImg img {
+    width: 100%;
+    border-radius: 2rem;
+
+}

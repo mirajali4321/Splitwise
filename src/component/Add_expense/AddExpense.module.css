@@ -1,0 +1,147 @@
+.formContainer {
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form h5 {
+    font-size: 1.2rem;
+    color: rgba(106, 112, 126, 255);
+    margin-bottom: 2.5rem;
+}
+
+.form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.inputName {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: rgba(106, 112, 126, 255);
+}
+
+.inputDate {
+    width: 30% !important;
+}
+
+.form button {
+    background-color: rgba(60, 55, 255, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    width: 85%;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 2rem;
+    margin-top: 4px;
+}
+
+.form p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 85%;
+}
+
+.splitButton {
+    text-decoration: none;
+    align-items: center;
+    width: 30% !important;
+    margin: 0px 40px;
+    cursor: pointer;
+    background-color: #222222 !important;
+    font-size: 1.1rem !important;
+}
+
+.modalHeader {
+    background-color: black;
+    color: white;
+}
+
+.displayName {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: .5rem;
+    color: #b64f0b;
+}
+
+.groupTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.groupTable th,
+.groupTable td {
+    padding: 15px 8px;
+    text-align: left;
+}
+
+.groupTable th {
+    background-color: rgb(0, 116, 106);
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.userDetails {
+    font-size: 1rem;
+    color: #555;
+}
+
+.ordercolor {
+    color: red;
+}
+
+.payColor {
+    color: rgba(7, 133, 7, 0.918);
+
+}
+
+.paySize {
+    font-size: 1.2rem;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 1.2rem;
+    padding: 0px 8px;
+}

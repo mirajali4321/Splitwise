@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: #343a40;
+  color: white;
+  width: 300px;
+  transition: width 0.3s ease;
+  padding: 10px;
+  height: 150vh;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s;
+  border-radius: 0.5rem;
+}
+
+.listItem:hover {
+  background-color: #495057;
+}
+
+.activeLink {
+  background-color: rgb(175, 175, 3);
+  color: white;
+}
